@@ -31,3 +31,8 @@ compute.projects.get on the project
 compute.instances.get on the VM
 You can also use a predefined role. To find predefined roles that contain these permissions, see Compute Engine IAM Roles.
 
+Format query output
+By default, each endpoint has a predefined format for the response. Some endpoints might return data in JSON format by default, while other endpoints might return data as a string. You can override the default data format specification by using the alt=json or alt=text query parameters, which return data in JSON string format or as a plain text representation, respectively.
+
+For example, the tags key automatically returns data in JSON format. You can return data in text format instead, by specifying the alt=text query parameter.
+
