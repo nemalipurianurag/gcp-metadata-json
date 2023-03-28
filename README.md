@@ -20,6 +20,7 @@ Instance attributes are stored under the following directory:
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 
 Instance guest attributes
+
 Instance guest attributes are stored under the following directory:
 
 http://metadata.google.internal/computeMetadata/v1/instance/guest-attributes
