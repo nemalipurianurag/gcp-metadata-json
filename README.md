@@ -8,11 +8,13 @@ About VM metadata
 Every virtual machine (VM) instance stores its metadata on a metadata server. Your VM automatically has access to the metadata server API without any additional authorization. Metadata is stored as key:value pairs.
 
 VM instance metadata
+
 The VM metadata entries are stored under the following directory:
 
 http://metadata.google.internal/computeMetadata/v1/instance/
 
 Instance attributes
+
 Instance attributes are stored under the following directory:
 
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
